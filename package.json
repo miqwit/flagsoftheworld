@@ -1,0 +1,19 @@
+{
+  "name": "flags",
+  "version": "1.0.0",
+  "description": "Browse flags of the world filtering them by criteria",
+  "main": "main.js",
+  "scripts": {
+	"process_data": "nohup node convertdata.js > data/flags.json",
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "miqwit",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^1.1.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
