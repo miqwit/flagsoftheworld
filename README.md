@@ -2,19 +2,14 @@
 
 Display flags of the world from a CSV file, to features to filter on (stripes, stars, ...)
 
+![Screenshot](screenshot/flags.png)
+
 ## Installation and run
 
 1. [Install NPM](https://www.tutorialspoint.com/nodejs/nodejs_environment_setup.htm)
 2. Clone this repository
-3. Install these packages
-```
-npm install babel-cli
-npm install babel-core
-npm install babel-loader
-npm install babel-preset-react
-npm install babel-preset-es2015
-```
-Then run server with `npm start`. It will run on port 8080 on your local machine. Go to http://localhost:8080/ to browse it.
+3. Install dependencies with `npm install`
+4. Run server with `npm start`. It will run on port 8080 on your local machine. Go to http://localhost:8080/ to browse it.
 
 ## Update data
 
